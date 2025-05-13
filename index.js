@@ -8,7 +8,7 @@ import chalk from 'chalk';
 import { errorHandler } from "./src/lib/utilies.js";
 import resourceRouter from "./src/routes/resource.js";
 dotenv.config();
-const PORT = process.env.PORT || 5000;
+const PORT = process.env.PORT || 3333;
 
 const app = express();
 
